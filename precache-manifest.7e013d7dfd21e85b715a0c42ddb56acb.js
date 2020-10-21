@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "128a472ce5823bb67fbb7d0e6b39fe25",
+    "revision": "4c578027d0501ab384f5465cb164a962",
     "url": "/ko-react/index.html"
   },
   {
