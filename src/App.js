@@ -8,10 +8,10 @@ let options = {
   anchors:              ['sectionOne', 'sectionTwo', 'sectionThree'],
   scrollBar:            true,
   navigation:           true,
-  verticalAlign:        false,
+  verticalAlign:        true,
   sectionPaddingTop:    '50px',
-  sectionPaddingBottom: '50px',
-  arrowNavigation:      true
+  arrowNavigation:      true,
+  loopBottom:           true,
 };
 
 function App() {
