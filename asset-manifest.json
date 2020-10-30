@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ko-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ko-react/static/js/main.2c8f80f7.chunk.js",
-    "main.js.map": "/ko-react/static/js/main.2c8f80f7.chunk.js.map",
+    "main.js": "/ko-react/static/js/main.35ccf772.chunk.js",
+    "main.js.map": "/ko-react/static/js/main.35ccf772.chunk.js.map",
     "runtime-main.js": "/ko-react/static/js/runtime-main.8c6c98c4.js",
     "runtime-main.js.map": "/ko-react/static/js/runtime-main.8c6c98c4.js.map",
-    "static/js/2.fa03bae9.chunk.js": "/ko-react/static/js/2.fa03bae9.chunk.js",
-    "static/js/2.fa03bae9.chunk.js.map": "/ko-react/static/js/2.fa03bae9.chunk.js.map",
+    "static/js/2.b766baa8.chunk.js": "/ko-react/static/js/2.b766baa8.chunk.js",
+    "static/js/2.b766baa8.chunk.js.map": "/ko-react/static/js/2.b766baa8.chunk.js.map",
     "index.html": "/ko-react/index.html",
-    "precache-manifest.7e013d7dfd21e85b715a0c42ddb56acb.js": "/ko-react/precache-manifest.7e013d7dfd21e85b715a0c42ddb56acb.js",
+    "precache-manifest.e6c37076db83ee8bd1ea9b35a0d9b041.js": "/ko-react/precache-manifest.e6c37076db83ee8bd1ea9b35a0d9b041.js",
     "service-worker.js": "/ko-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ko-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.fa03bae9.chunk.js.LICENSE.txt": "/ko-react/static/js/2.fa03bae9.chunk.js.LICENSE.txt",
+    "static/js/2.b766baa8.chunk.js.LICENSE.txt": "/ko-react/static/js/2.b766baa8.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/ko-react/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c6c98c4.js",
-    "static/js/2.fa03bae9.chunk.js",
+    "static/js/2.b766baa8.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2c8f80f7.chunk.js"
+    "static/js/main.35ccf772.chunk.js"
   ]
 }
