@@ -2,16 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 import './App.css';
+import Top from './components/pages/Top';
 
 let options = {
   sectionClassName:     'section',
   anchors:              ['sectionOne', 'sectionTwo', 'sectionThree'],
   scrollBar:            true,
+  scrollingSpeed:       50,
   navigation:           true,
   verticalAlign:        true,
-  sectionPaddingTop:    '50px',
   arrowNavigation:      true,
-  loopBottom:           true,
 };
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <a href="#sectionThree">Section Three</a>
         </Header>
         <SectionsContainer className="container" {...options}>
-          <Section className="custom-section" verticalAlign="true" color="#69D2E7">Page 1</Section>
+          <Section className="custom-section"><Top/></Section>
           <Section color="#A7DBD8">Page 2</Section>
           <Section color="#E0E4CC">Page 3</Section>
         </SectionsContainer>
