@@ -1,0 +1,50 @@
+.top-area {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  .name-area {
+    display: normal;
+    margin-left: 80px;
+    h1 {
+      font-size: 80px;
+    }
+    h2 {
+      color: #aaaaaa;
+    }
+    .text {
+      position: relative;
+    }
+    .text-entering {
+      animation-name: flow-transition;
+      animation-duration: 1s;
+    }
+  }
+
+  .photo-area {
+    width: 50%;
+    height: 40%;
+    margin-right: 80px;
+    .photo-line {
+      height: 100%;
+      border-radius: 100px;
+      img {
+        max-width: 500px;
+        max-height: 500px;
+      }
+    }
+  }
+}
+@keyframes flow-transition {
+  0% {
+    opacity: 0%;
+    left: 0px;
+    top: 80px;
+  }
+  100% {
+    opacity: 100%;
+    left: 0px;
+    top: 0px;
+  }
+}
