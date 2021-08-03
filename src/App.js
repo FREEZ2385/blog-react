@@ -1,13 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import { SectionsContainer, Section, Header, Footer } from "react-fullpage";
-import "./App.css";
-import Top from "./components/pages/Top";
-import MainHeader from "./components/organisms/MainHeader";
+import React from 'react';
+
+import { SectionsContainer, Section } from 'react-fullpage';
+import './App.css';
+import Top from './components/pages/Top';
+import MainHeader from './components/organisms/MainHeader';
 
 let options = {
-  sectionClassName: "section",
-  anchors: ["sectionOne", "sectionTwo", "sectionThree"],
+  sectionClassName: 'section',
+  anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
   scrollBar: true,
   scrollingSpeed: 50,
   navigation: true,

@@ -1,27 +1,42 @@
-import { Avatar, Paper } from "@material-ui/core";
-import { Transition } from "react-transition-group";
-import React from "react";
-import imgs from "../../assets/img/test.jpg";
-import patternimg from "../../assets/img/pattern.png";
-import "./scss/Top.scss";
+import React from 'react';
+import topIntro from '../../assets/img/top_intro.jpeg';
+import './scss/Top.scss';
 
 function Top() {
   return (
-    <div className="top-area" style={{ backgroundImage: `url(${patternimg})` }}>
-      <div className="name-area">
-        <Transition in={true} timeout={1000} appear>
-          {(status) => <h1 className={`text text-${status}`}>Lee SangCheol</h1>}
-        </Transition>
-        <Transition in={true} timeout={5000} appear>
-          {(status) => (
-            <h4 className={`text text-${status}`}>
-              フロントエンド開発者, バックエンド開発者を目指す
-            </h4>
-          )}
-        </Transition>
-      </div>
-      <div className="photo-area">
-        <Paper className="photo-line"></Paper>
+    <div
+      className="top-area"
+      style={{
+        backgroundImage: `url(${topIntro})`,
+        height: '100vh',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
+      <div className="container">
+        <div className="name-area">
+          <h2 className={`text text-${status}`}>
+            <span style={{ color: '#FFDF00' }}>Welcome to my portfolio</span>
+          </h2>
+
+          <h3
+            style={{
+              textAlign: 'left',
+              marginTop: 30,
+              marginBottom: -20,
+              color: '#888888',
+            }}
+          >
+            My Name is
+          </h3>
+          <h1 className={`text text-${status}`}>
+            <span style={{ color: '#FFDF00' }}>Lee</span> SangCheol
+          </h1>
+          <h2 className={`text text-${status}`}>
+            Backend / Frontend Web Application Developer
+          </h2>
+        </div>
       </div>
     </div>
   );

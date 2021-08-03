@@ -1,6 +1,6 @@
-import React from "react";
-import { Header } from "react-fullpage";
-import "./scss/MainHeader.scss";
+import React from 'react';
+import { Header } from 'react-fullpage';
+import './scss/MainHeader.scss';
 
 function MainHeader() {
   return (
